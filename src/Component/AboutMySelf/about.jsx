@@ -5,6 +5,7 @@ import { Navigation,SocialLinks,GreetingLottie} from "../../Component";
 import Button from '@mui/material/Button';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import codingAnimation from '../../Assets/Lottie/96428-portfolio.json'
+import CV from '../../Assets/MyCV.pdf'
 
 import { useNavigate } from "react-router-dom";
 
@@ -59,6 +60,7 @@ const About = () => {
 											<span className="btn-inner--text">
 												See My Resume
 											</span>
+											{/* <a className="btn-inner--text" href={CV} download="FileName.pdf">Download My Resume</a> */}
 										</Button>
 									</div>
 								</Grid>

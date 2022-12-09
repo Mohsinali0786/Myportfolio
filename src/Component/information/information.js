@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with HTML CSS Javascript along with React.js Material UI Antd Tailwind CSS NodeJS ExpressJS Mongodb and firebase",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"https://docs.google.com/document/d/1BnObOa7JiXa9GSM_3yZSSlkE0GGiZL-9pbulb7xvhhw/edit?usp=sharing"
 };
 
 export const openSource = {
@@ -15,12 +15,10 @@ export const openSource = {
 
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	linkedin: "https://www.linkedin.com/in/mohsin-muhammad-ali-090349194/",
+	github: "https://github.com/Mohsinali0786",
+	instagram: "https://www.instagram.com/m_a_parekh/",
+	facebook: "https://www.facebook.com/mohisnmuhammadali",
 };
 
 export const skillsSection = {

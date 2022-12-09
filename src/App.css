@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden !important;
+} 
 @font-face {
 	font-family: 'Title';
 	src: url('./Assets/Fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf');
@@ -15,6 +18,7 @@
 .navbar-links {
 	display: flex;
 	align-items: flex-start;
+	color: black !important;
 }
 
 .navbar-links span:nth-child(2) {
@@ -87,6 +91,7 @@
 	width:50% !important;
 }
 
+
 /*!
 
 =========================================================
@@ -106,10 +111,6 @@
 */
 
 
-#nav-title {
-	font-family: Augestina;
-	text-transform: capitalize;
-}
 
 :root {
 	--blue: #5e72e4;
@@ -157,6 +158,8 @@
 *::after {
 	box-sizing: border-box;
 }
+
+
 
 html {
 	font-family: sans-serif;

@@ -18,8 +18,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
+// import {socialLinks} from '../information/information'
 
-const pages = [{ icon: <FacebookIcon />, url: '', name: 'Facebook' }, { icon: <InstagramIcon />, url: '', name: 'Instagram' }, { icon: <GitHubIcon />, url: '', name: 'Github' }, { icon: <LinkedInIcon />, url: '', name: 'Linkend' }];
+const pages = [{ icon: <FacebookIcon />, url:socialLinks?.facebook, name: 'Facebook' }, { icon: <InstagramIcon />, url: socialLinks?.instagram, name: 'Instagram' }, { icon: <GitHubIcon />, url: socialLinks?.github, name: 'Github' }, { icon: <LinkedInIcon />, url: socialLinks?.linkedin, name: 'Linkend' }];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -126,8 +127,8 @@ function ResponsiveAppBar() {
                         >
                             {pages.map((page, index) => (
                                 <MenuItem key={index} onClick={handleCloseNavMenu} >
-                                    <a className='navbar-links'>
-                                        <span textAlign="center">{page.icon}</span>
+                                    <a className='navbar-links' href={page.url}>
+                                        <span textAlign="center" >{page.icon}</span>
                                         <span className='navbar-link-text'>
                                             {page.name}
                                         </span>
@@ -143,6 +144,8 @@ function ResponsiveAppBar() {
                                 key={index}
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                href={page.url}
+                                style={{color:'white'}}
                             >
                                 {page.icon}
                             </a>
