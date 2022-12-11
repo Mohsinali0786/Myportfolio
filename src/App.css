@@ -66,6 +66,7 @@ body{
 	display: flex;
 	justify-content: center;
 	padding-bottom: 5px;
+
 }
 
 .Experience-time {
@@ -84,13 +85,27 @@ body{
 .Project-Cards{
 	width:50% !important;
 }
+.ProjectCard-Radius div{
+	
+	border-radius: 10px !important;
+	height: 30vh !important;
+}
 .contact-info{
 	text-align: right;
 }
 .Education-card-div{
 	width:50% !important;
+	/* height:50px !important; */
+	border-radius: 10px !important;
 }
+.Education-Cards-borderRadius
+{
+	height: 30vh !important;
+}
+.ExperienceCard-BorderRadius{
+	border-radius: 10px !important;
 
+}
 
 /*!
 

@@ -6,9 +6,9 @@ import profilepic from '../../Assets/Images/logo.png'
 const ExperienceCard = ({ data }) => {
 	return (
 		<Fade left duration={2000} >
-			<Container className="card-lift--hover shadow mt-4">
+			<Container className="card-lift--hover shadow mt-4 ExperienceCard-BorderRadius">
 				<Grid container spacing={1}>
-					<div className="d-flex px-3 pb-4">
+					<div className="d-flex px-3 pb-4 ">
 						<div className="pl-4">
 							<div style={{backgroundColor:'black'}}>
 								{/* <img

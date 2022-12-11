@@ -6,11 +6,11 @@ import { Fade } from "react-reveal";
 
 const ProjectsCard = ({ data }) => {
 	return (
-		<Container >
+		<Container className='ProjectCard-Radius'>
 			<Fade bottom duration={2000} >
-				<Grid className="shadow-lg--hover shadow mt-4">
-					<Grid>
-						<div className="d-flex px-3">
+				<Grid className="shadow-lg--hover shadow mt-4" >
+					<Grid >
+						<div className="d-flex px-3" >
 							<div className="pl-4">
 								<h3>{data.name}</h3>
 								<p className="description mt-3">{data.desc}</p>

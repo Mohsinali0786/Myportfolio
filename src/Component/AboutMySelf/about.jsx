@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import codingAnimation from '../../Assets/Lottie/96428-portfolio.json'
 import CV from '../../Assets/MyCV.pdf'
+import CVImage from '../../Assets/Images/Capture.PNG'
 
 import { useNavigate } from "react-router-dom";
 
@@ -51,8 +52,8 @@ const About = () => {
 											// color="default"
                                             // sx={{backgroundColor:'white'}}
                                             variant='contained'
-                                            onClick={()=>ResumeBtn(greetings.resumeLink)}
-											// href={greetings.resumeLink}
+                                            onClick={()=>ResumeBtn('https://drive.google.com/file/d/133WTF9ty2KHXEe3iTlfDhwPtb_hudfjr/view?usp=share_link')}
+											href={CVImage}
 										>
 											<span className="btn-inner--icon mr-1">
 												<InsertDriveFileIcon/>

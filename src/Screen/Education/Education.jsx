@@ -23,6 +23,8 @@ const Education = () => {
 						return (
 							<Grid
 								item
+								xs={12}
+								sm={6}
 								md={4}
 								className="Education-card-div card-lift--hover mt-4"
 								key={info.schoolName}

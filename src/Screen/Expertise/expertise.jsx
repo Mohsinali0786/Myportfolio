@@ -24,7 +24,7 @@ const Skills = () => {
                                 />
                             </Fade>
                         </Grid>
-                        <Grid items md={6} className="order-1 order-lg-2">
+                        <Grid items md={6} className="order-1 order-lg-2 ">
                             <Fade right duration={2000}>
                                 <h3 className="h3 mb-2">{section.title}</h3>
                                 <div className="d-flex justify-content-center flex-wrap mb-2">

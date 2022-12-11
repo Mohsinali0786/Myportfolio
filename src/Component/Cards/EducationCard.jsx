@@ -11,8 +11,8 @@ const EducationCard = ({ education }) => {
 		<Fade left duration={2000} >
 			{/* <Container className="card-lift--hover shadow mt-4">
 				<Grid container spacing={1}> */}
-					<div className="d-flex px-3 pb-4 shadow ">
-						<div className="pl-4">
+					<div className=" px-3 pb-4 shadow Education-Cards-borderRadius" >
+						<div className="pl-4"> 
 							<h5 className="text-info">
 								{education.schoolName}
 							</h5>
