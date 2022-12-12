@@ -71,6 +71,7 @@ export const skillsSection = {
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
 				},
+				
 			],
 		},
 		{
@@ -122,18 +123,30 @@ export const educationInfo = [
 	},
 	{
 		schoolName: "Govt Islamia Science College",
-		subHeader: "Computer Science",
+		subHeader: "Higher Secondary School Certificate (HSC) in Computer Science",
 		duration: "Sep 2013 - July 2015",
 		grade: "Grade A",
 	},
 	{
 		schoolName: "St.Lawrence's High School",
-		subHeader: "Computer Science",
+		subHeader: "Secondary School Certificate (SSC) in Computer Science",
 		duration: "March 2003 - May 2013",
 		grade: "Grade A",
 	},
 
 
+];
+export const ShortCoursesData = [
+	{
+		schoolName: "Saylani Mass and IT Training",
+		subHeader: "Web Mobile and Hybrid Application Development ",
+		duration: "March 2020 - December 2020",
+	},
+	{
+		schoolName: "Saylani Mass and IT Training",
+		subHeader: "Short Course Python Programming",
+		duration: "Nov 2019 - Dec 2019",
+	},
 ];
 
 export const experience = [

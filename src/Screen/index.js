@@ -4,6 +4,7 @@ import Education from './Education/Education'
 import Proficiency from './Skills/Proficiency'
 import Experience from './Experience/Experience'
 import Projects from './Projects/Projects'
+import ShortCoursesScreen from './Education/Courses'
 
 export{
     Home,
@@ -12,4 +13,5 @@ export{
     Proficiency,
     Experience,
     Projects,
+    ShortCoursesScreen
 }

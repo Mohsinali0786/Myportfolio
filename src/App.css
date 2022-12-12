@@ -1,6 +1,7 @@
-body{
+body {
 	overflow-x: hidden !important;
-} 
+}
+
 @font-face {
 	font-family: 'Title';
 	src: url('./Assets/Fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf');
@@ -42,6 +43,7 @@ body{
 	padding-bottom: 2px;
 
 }
+
 .Education-Heading {
 	margin-bottom: 50px;
 }
@@ -59,9 +61,11 @@ body{
 	flex-direction: column;
 	align-items: center;
 }
+
 .pl-4 div div {
 	margin-bottom: 5px;
 }
+
 .Education-Cards-Maindiv {
 	display: flex;
 	justify-content: center;
@@ -82,27 +86,45 @@ body{
 	padding: 5px;
 	border-radius: 10px;
 }
-.Project-Cards{
-	width:50% !important;
+
+.Project-Cards {
+	width: 50% !important;
 }
-.ProjectCard-Radius div{
-	
+
+.courses-card-maindiv {
+	padding-bottom: 5px;
+}
+
+.Courses-Card {
+	background-color: white !important;
+	border-radius: 10px;
+}
+
+.shortcourse-card-grid {
+	height: 30vh;
+}
+
+.ProjectCard-Radius div {
+
 	border-radius: 10px !important;
 	height: 30vh !important;
 }
-.contact-info{
+
+.contact-info {
 	text-align: right;
 }
-.Education-card-div{
-	width:50% !important;
+
+.Education-card-div {
+	width: 50% !important;
 	/* height:50px !important; */
 	border-radius: 10px !important;
 }
-.Education-Cards-borderRadius
-{
+
+.Education-Cards-borderRadius {
 	height: 30vh !important;
 }
-.ExperienceCard-BorderRadius{
+
+.ExperienceCard-BorderRadius {
 	border-radius: 10px !important;
 
 }
@@ -23682,11 +23704,13 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 	margin-bottom: 0.5rem;
 	font-weight: 300;
 }
+
 @media (min-width: 650px) {
-	.Project-Cards{
-		display:block !important;
+	.Project-Cards {
+		display: block !important;
 	}
 }
+
 @media (min-width: 576px) {
 	.ct-title {
 		font-size: 1.5rem;
