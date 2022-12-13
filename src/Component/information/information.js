@@ -1,5 +1,15 @@
 import emoji from "react-easy-emoji";
 import logo from '../../Assets/Images/logo.png'
+import teamapp from '../../Assets/Images/project1.PNG'
+import atten_1 from '../../Assets/Images/atten_ui.PNG'
+import atten_2 from '../../Assets/Images/atten_ui_2.PNG'
+import atten_3 from '../../Assets/Images/atten_signup_ui.PNG'
+import port_ui from '../../Assets/Images/port_ui.PNG'
+import ECOM1 from '../../Assets/Images/Ecom_UI_1.PNG'
+import ECOM2 from '../../Assets/Images/Ecom_UI_2.PNG'
+import ECOM3 from '../../Assets/Images/Ecom_UI_3.PNG'
+
+
 export const greetings = {
 	name: "Mohsin Muhammad Ali",
 	title: "Hi all, I'm Mohsin",
@@ -163,21 +173,25 @@ export const projects = [
 		name: "developer-portfolio",
 		desc: "Simple Portfolio Template built with react.js",
 		github: "https://github.com/Mohsinali0786/Myportfolio.git",
+		image:[port_ui]
 	},
 	{
 		name: "Attendance System",
 		desc: "User can add attendance on daily basis",
 		github: "https://github.com/Mohsinali0786/fullattendancesys.git",
+		image:[atten_1,atten_2,atten_3]
 	},
 	{
 		name: "TeamApp",
 		desc: "Show which team member are you How many teams added you",
 		github: "https://github.com/Mohsinali0786/teamapp.git",
+		image:[teamapp],
 	},
 	{
-		name: "Ecommerce",
+		name: "E-commerce",
 		desc: "Simple E-commerece website",
 		github: "https://github.com/Mohsinali0786/E-Commerce-master.git",
+		image:[ECOM1,ECOM2,ECOM3]
 	},
 ];
 

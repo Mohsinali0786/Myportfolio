@@ -7,25 +7,22 @@ import { Chip } from "@mui/material";
 const ShortCourses = ({ courses }) => {
     console.log('DTATATA', courses)
     return (
-        // <Container className=''>
+        <Container className="card-lift--hover shadow mt-4 Cousrse-Cards-borderRadius" >
             <Fade bottom duration={2000}>
-                <Grid className="shadow-lg--hover shadow mt-4 shortcourse-card-grid" >
-                    {/* <Grid className="" > */}
-                        <div className="d-flex px-3" >
-                            <div className="pl-4">
-                                <h5 className="text-info" >
-                                    {courses.schoolName}
-                                </h5>
-                                <div>
-                                    <Chip className='chipText' label={courses.duration} color="success" />
-                                </div>
-                                <h6>{courses.subHeader}</h6>
-                            </div>
+                {/* <Grid className="" > */}
+                <div className=" px-3 pb-4 shadow " >
+                    <div className="pl-4 Course-innerCard-height">
+                        <h5 className="text-info" >
+                            {courses.schoolName}
+                        </h5>
+                        <div>
+                            <Chip className='' label={courses.duration} color="primary" />
                         </div>
-                    {/* </Grid > */}
-                </Grid>
+                        <h6>{courses.subHeader}</h6>
+                    </div>
+                </div>
             </Fade>
-        // </Container>
+        </Container>
     );
 };
 

@@ -26,7 +26,6 @@ const Projects = () => {
 							<Grid xs={12} sm={6} md={6} className='Project-Cards'>
 								<ProjectsCard key={i} data={data} />;
 							</Grid>
-
 						)
 					})}
 				</Grid>

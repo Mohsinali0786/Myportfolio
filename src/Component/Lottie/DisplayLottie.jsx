@@ -5,7 +5,7 @@ import Lottie from 'react-lottie';
 import { useEffect, useState } from 'react';
 export default function App({ codingAnimation }) {
 	const [animationPath, setAnimationPath] = useState('')
-	console.log('codingAnimation', codingAnimation)
+
 	useEffect(() => {
 		if (codingAnimation === 'Skills') {
 			setAnimationPath(Skills)
@@ -31,8 +31,7 @@ export default function App({ codingAnimation }) {
 		<div>
 			<Lottie
 				options={defaultOptions}
-				height={400}
-				width={400}
+	
 			/>
 		</div>
 	);

@@ -7,7 +7,7 @@ import SchoolIcon from '@mui/icons-material/School';
 const ShortCoursesScreen = () => {
     return ShortCoursesData && (
         <section className="section pb-0 bg-gradient-info my-5">
-            <Container>
+            <Container maxWidth='xl'>
                 <div className="d-flex  Education-Heading ">
                     <div>
                         <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -18,17 +18,19 @@ const ShortCoursesScreen = () => {
                         <h4 className="display-3 text-white">Short Courses</h4>
                     </div>
                 </div>
-                <Grid container className="row-grid align-items-center courses-card-maindiv">
-                    {ShortCoursesData.map((info) => {
-                        return (
-                            <Grid xs={12} sm={6} md={4}  className='Courses-Card'>
+                <div className=" Education-Cards-Maindiv">
+                    <Grid container spacing={1}>
+                        {ShortCoursesData.map((info) => {
+                            return (
+                                <Grid item xs={12} sm={6} md={4} className=''>
 
-                                {/* <h1 style={{backgroundColor:'red'}}>Hello</h1> */}
-                                <ShortCourses courses={info} />
-                            </Grid>
-                        );
-                    })}
-                </Grid>
+                                    {/* <h1 style={{backgroundColor:'red'}}>Hello</h1> */}
+                                    <ShortCourses courses={info} />
+                                </Grid>
+                            );
+                        })}
+                    </Grid>
+                </div>
             </Container>
         </section>
     );

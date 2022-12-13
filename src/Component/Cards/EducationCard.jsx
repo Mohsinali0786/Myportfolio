@@ -8,27 +8,25 @@ import { Fade } from "react-reveal";
 
 const EducationCard = ({ education }) => {
 	return (
-		<Fade left duration={2000} >
-			{/* <Container className="card-lift--hover shadow mt-4">
-				<Grid container spacing={1}> */}
-					<div className=" px-3 pb-4 shadow Education-Cards-borderRadius" >
-						<div className="pl-4"> 
-							<h5 className="text-info">
-								{education.schoolName}
-							</h5>
-							<div>
-								<Chip label={education.duration} color="primary" />
+		<Container className="card-lift--hover shadow mt-4 Education-Cards-borderRadius" >
+			<Fade left duration={2000} >
+				<div className=" px-3 pb-4 shadow" >
+					<div className="pl-4 EducardCard-innerCard-height">
+						<h5 className="text-info">
+							{education.schoolName}
+						</h5>
+						<div>
+							<Chip label={education.duration} color="primary" />
 
-								{education.grade && (
-									<Chip className='chipText' label={education.grade} color="success" />
-								)}
-							</div>
-							<h6>{education.subHeader}</h6>
+							{education.grade && (
+								<Chip className='chipText' label={education.grade} color="success" />
+							)}
 						</div>
+						<h6>{education.subHeader}</h6>
 					</div>
-				{/* </Grid>
-			</Container> */}
-		</Fade>
+				</div>
+			</Fade>
+		</Container>
 	);
 };
 

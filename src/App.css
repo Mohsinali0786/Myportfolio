@@ -69,7 +69,7 @@ body {
 .Education-Cards-Maindiv {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 
 }
 
@@ -107,8 +107,15 @@ body {
 .ProjectCard-Radius div {
 
 	border-radius: 10px !important;
-	height: 30vh !important;
+	/* height: 35vh !important; */
+	text-align: center !important;
 }
+.ProjectCards-Images{
+	/* width: 30% !important; */
+	width:100% !important;
+	height:100px !important;
+}
+
 
 .contact-info {
 	text-align: right;
@@ -121,9 +128,23 @@ body {
 }
 
 .Education-Cards-borderRadius {
+	height: 35vh !important;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: white !important;
+}
+.EducardCard-innerCard-height{
 	height: 30vh !important;
 }
-
+.Cousrse-Cards-borderRadius{
+	height: 25vh !important;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: white !important;
+}
+.Course-innerCard-height{
+	height: 20vh !important;
+}
 .ExperienceCard-BorderRadius {
 	border-radius: 10px !important;
 

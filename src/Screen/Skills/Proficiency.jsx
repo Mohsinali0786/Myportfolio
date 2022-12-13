@@ -11,8 +11,8 @@ const Proficiency = () => {
 	return SkillBars && (
 		<Container className="">
 			<Fade bottom duration={2000} >
-				<Grid container>
-					<Grid md={6}>
+				<Grid container spacing={1}>
+					<Grid item xs={12} sm={12} md={6}>
 						<h1 className="h1">Proficiency</h1>
 						{SkillBars.map((skill) => {
 							return (
@@ -31,7 +31,7 @@ const Proficiency = () => {
 							);
 						})}
 					</Grid>
-					<Grid md={6}>
+					<Grid item xs={12} sm={12} md={6}>
 						<GreetingLottie codingAnimation={buildLottie} />
 					</Grid>
 				</Grid>
