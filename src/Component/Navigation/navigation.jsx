@@ -47,9 +47,9 @@ function ResponsiveAppBar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography
-                        variant="h6"
+                        variant="h5"
                         noWrap
-                        component="a"
+                        component="h"
                         href="/"
                         sx={{
                             mr: 2,
@@ -71,7 +71,7 @@ function ResponsiveAppBar() {
                     <Typography
                         variant="h5"
                         noWrap
-                        component="div"
+                        component="h"
                         href=""
                         sx={{
                             mr: 2,

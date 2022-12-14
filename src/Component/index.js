@@ -7,7 +7,6 @@ import ExperienceCard from './Cards/ExperienceCard'
 import ProjectsCard from './Cards/ProjectsCard'
 import ProfileCard from './Cards/ProfileCard'
 import ShortCourses from './Cards/ShortCourses'
-import ImageCarousel from './Caraosel/Caraousel'
 
 
 
@@ -21,7 +20,6 @@ export{
     ProjectsCard,
     ProfileCard,
     ShortCourses,
-    ImageCarousel
 }
 
 

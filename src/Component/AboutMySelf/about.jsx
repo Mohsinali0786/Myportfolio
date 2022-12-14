@@ -52,7 +52,7 @@ const About = () => {
 											// color="default"
                                             // sx={{backgroundColor:'white'}}
                                             variant='contained'
-                                            onClick={()=>ResumeBtn('https://drive.google.com/file/d/133WTF9ty2KHXEe3iTlfDhwPtb_hudfjr/view?usp=share_link')}
+                                            onClick={()=>ResumeBtn(greetings?.resumeLink)}
 										>
 											<span className="btn-inner--icon mr-1">
 												<InsertDriveFileIcon/>

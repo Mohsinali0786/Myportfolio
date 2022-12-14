@@ -15,8 +15,7 @@ export const greetings = {
 	title: "Hi all, I'm Mohsin",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with HTML CSS Javascript along with React.js Material UI Antd Tailwind CSS NodeJS ExpressJS Mongodb and firebase",
-	resumeLink:
-		"https://docs.google.com/document/d/1BnObOa7JiXa9GSM_3yZSSlkE0GGiZL-9pbulb7xvhhw/edit?usp=sharing"
+	resumeLink:"https://drive.google.com/file/d/1OZQnmDufZ8-5W963lFy7xcwPQ0fQWEGF/view?usp=share_link"
 };
 
 export const openSource = {
